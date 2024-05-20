@@ -24,6 +24,7 @@ class RoleController extends Controller
     }
     public function create()
     {
+        // create role
         return view('admin.roles.create');
     }
     public function store(Request $request)
